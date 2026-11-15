@@ -2,69 +2,97 @@
 #include <stdlib.h>
 
 typedef struct Node {
-    int val;
-    struct Node *next;
-} Node;
+    int valor;
+    struct Node *proximo;
+} TNode;
 
-Node *novoNode();
-void imprimeLista(Node *head);
+void insereNode(TNode **lista, int x);
+void imprimeLista(TNode *lista);
+TNode *busca(TNode *lista, int x);
+void removeNode(TNode **lista, int x);
 
 int main() {
-    // Cria um Node:
-    Node *head;
-    int n = 5;
+    // lista headless
+    TNode *lista = NULL;
 
-    // Aloca memória para o Node:
-    head = novoNode();
+    insereNode(&lista, 15);
+    insereNode(&lista, 35);
+    insereNode(&lista, 10);
+    insereNode(&lista, 50);
 
-    if (!head) {
-        printf("Erro na alocação de memória.");
-        return 1;
+    imprimeLista(lista);
+
+    TNode *num = busca(lista, 10);
+
+    if (num == NULL) {
+        printf("O número não existe na lista.");
+    } else {
+        printf("O número foi encontrado, e é o %d\n", num->valor);
     }
 
+    removeNode(&lista, num->valor);
 
-    Node *current = head;
-
-    while (n > 0)
-    {
-        current->val = n;
-
-        if (n == 1)
-        {
-            current->next = NULL;
-            break;
-        }
-
-        current->next = novoNode();
-
-        current = current->next;
-
-        n--;
-    }
-
-    current->next = novoNode();
-    current->next->val = 15132;
-    current->next->next = NULL;
-    current = head;
-
-    imprimeLista(head);
+    imprimeLista(lista);
 
     return 0;
 }
 
-void imprimeLista(Node *head)
-{
-    Node *current = head;
-
-    while (current != NULL)
-    {
-        printf("%d -> ", current->val);
-        current = current->next;
+void imprimeLista(TNode *lista) {
+    for (TNode *atual = lista; atual != NULL; atual = atual->proximo) {
+        printf("%d -> ", atual->valor);
     }
 
     printf("NULL\n");
 }
 
-Node *novoNode() {
-    return (Node *) malloc(sizeof(Node));
+TNode *busca(TNode *lista, int x) {
+    if (lista == NULL) return NULL;
+
+    if (x == lista->valor) return lista;
+
+    return busca(lista->proximo, x);
+}
+
+void insereNode(TNode **lista, int x) {
+    TNode *novoNode = (TNode *) malloc(sizeof(TNode));
+
+    novoNode->valor = x;
+    novoNode->proximo = NULL;
+
+    // se a lista estiver vazia, lista passa a apontar para o novo nó (novo primeiro elemento)
+    if (*lista == NULL) {
+        *lista = novoNode;
+    } else { // senão, percorre até o final e faz o antigo ultimo nó apontar para o novo (atual ultimo)
+        TNode *p = *lista;
+
+        while (p->proximo != NULL) {
+            p = p->proximo;
+        }
+
+        p->proximo = novoNode;
+    }
+}
+
+void removeNode(TNode **lista, int x) {
+    TNode *p, *q;
+
+    p = NULL;
+    q = *lista;
+
+    while (q != NULL && q->valor != x) {
+        p = q;
+        q = q->proximo;
+    }
+
+    if (q == NULL) return;
+
+    if (p != NULL) {
+        p->proximo = q->proximo;
+    } else {
+        *lista = q->proximo;
+    }
+
+    printf("Número %d removido\n", q->valor);
+
+    free(q);
 }

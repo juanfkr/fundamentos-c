@@ -1,0 +1,202 @@
+=====================
+Código: 1001
+Descrição: Teclado mecanico ABNT2
+Preço: R$149.90 
+=====================
+Código: 1002
+Descrição: Mouse sem fio ergonomico
+Preço: R$89.50 
+=====================
+Código: 1003
+Descrição: Monitor LED 24 polegadas
+Preço: R$799.99 
+=====================
+Código: 1004
+Descrição: Headset gamer com microfone
+Preço: R$199.90 
+=====================
+Código: 1005
+Descrição: Webcam Full HD
+Preço: R$159.90 
+=====================
+Código: 1006
+Descrição: Mousepad grande para jogos
+Preço: R$79.90 
+=====================
+Código: 1007
+Descrição: SSD SATA 480 GB
+Preço: R$249.90 
+=====================
+Código: 1008
+Descrição: Memoria RAM DDR4 8 GB
+Preço: R$139.90 
+=====================
+Código: 1009
+Descrição: Placa de video Radeon RX 580
+Preço: R$699.90 
+=====================
+Código: 1010
+Descrição: Processador Ryzen 5 5600
+Preço: R$849.90 
+=====================
+Código: 1011
+Descrição: Placa mae A520M
+Preço: R$429.90 
+=====================
+Código: 1012
+Descrição: Fonte de alimentacao 500W
+Preço: R$289.90 
+=====================
+Código: 1013
+Descrição: Gabinete Mid Tower
+Preço: R$259.90 
+=====================
+Código: 1014
+Descrição: Cooler para processador
+Preço: R$119.90 
+=====================
+Código: 1015
+Descrição: HD SATA 1 TB
+Preço: R$239.90 
+=====================
+Código: 1016
+Descrição: SSD NVMe 1 TB
+Preço: R$399.90 
+=====================
+Código: 1017
+Descrição: Teclado sem fio compacto
+Preço: R$129.90 
+=====================
+Código: 1018
+Descrição: Mouse gamer RGB
+Preço: R$109.90 
+=====================
+Código: 1019
+Descrição: Headset Bluetooth
+Preço: R$179.90 
+=====================
+Código: 1020
+Descrição: Caixa de som USB
+Preço: R$69.90 
+=====================
+Código: 1021
+Descrição: Microfone condensador USB
+Preço: R$229.90 
+=====================
+Código: 1022
+Descrição: Suporte para monitor
+Preço: R$189.90 
+=====================
+Código: 1023
+Descrição: Cabo HDMI 2 metros
+Preço: R$29.90 
+=====================
+Código: 1024
+Descrição: Cabo DisplayPort 2 metros
+Preço: R$39.90 
+=====================
+Código: 1025
+Descrição: Adaptador USB para Ethernet
+Preço: R$59.90 
+=====================
+Código: 1026
+Descrição: Hub USB 4 portas
+Preço: R$74.90 
+=====================
+Código: 1027
+Descrição: Pen drive 64 GB
+Preço: R$49.90 
+=====================
+Código: 1028
+Descrição: Cartao de memoria 128 GB
+Preço: R$64.90 
+=====================
+Código: 1029
+Descrição: Leitor de cartao USB
+Preço: R$34.90 
+=====================
+Código: 1030
+Descrição: Nobreak 1200 VA
+Preço: R$599.90 
+=====================
+Código: 1031
+Descrição: Estabilizador 500 VA
+Preço: R$149.90 
+=====================
+Código: 1032
+Descrição: Filtro de linha 6 tomadas
+Preço: R$54.90 
+=====================
+Código: 1033
+Descrição: Notebook 15 polegadas
+Preço: R$3499.90 
+=====================
+Código: 1034
+Descrição: Cadeira de escritorio
+Preço: R$899.90 
+=====================
+Código: 1035
+Descrição: Mesa para computador
+Preço: R$549.90 
+=====================
+Código: 1036
+Descrição: Controle USB para PC
+Preço: R$99.90 
+=====================
+Código: 1037
+Descrição: Adaptador Bluetooth USB
+Preço: R$44.90 
+=====================
+Código: 1038
+Descrição: Placa de rede Wi-Fi
+Preço: R$119.90 
+=====================
+Código: 1039
+Descrição: Placa de captura HDMI
+Preço: R$499.90 
+=====================
+Código: 1040
+Descrição: Impressora multifuncional
+Preço: R$799.90 
+=====================
+Código: 1041
+Descrição: Scanner de mesa
+Preço: R$459.90 
+=====================
+Código: 1042
+Descrição: Tablet grafico pequeno
+Preço: R$199.90 
+=====================
+Código: 1043
+Descrição: Tablet grafico medio
+Preço: R$399.90 
+=====================
+Código: 1044
+Descrição: Caneta para tablet grafico
+Preço: R$89.90 
+=====================
+Código: 1045
+Descrição: Monitor ultrawide 29 polegadas
+Preço: R$1299.90 
+=====================
+Código: 1046
+Descrição: Monitor gamer 144 Hz
+Preço: R$1099.90 
+=====================
+Código: 1047
+Descrição: Braco articulado para monitor
+Preço: R$299.90 
+=====================
+Código: 1048
+Descrição: Suporte para notebook
+Preço: R$99.90 
+=====================
+Código: 1049
+Descrição: Base refrigerada para notebook
+Preço: R$149.90 
+=====================
+Código: 1050
+Descrição: Camera IP Wi-Fi
+Preço: R$219.90 
+Produto encontrado!
+Código: 1003Código: Monitor LED 24 polegadasCódigo: 799.99
